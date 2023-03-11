@@ -6,14 +6,14 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 13:17:14 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/11 15:44:40 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/11 15:51:20 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "tdk.h"
 #include <unistd.h>
 
-int	main(int argc, char **argv)
+int	main()
 {
 	char		grid[4][4];
 	int			i;
@@ -41,7 +41,7 @@ int	main(int argc, char **argv)
 		j = 0;
 		while (j < 4)
 		{
-			write(1, &grid[i][j], 1);
+			write(1, &grid[i][j] + '0', 1);
 			j++;
 		}
 		write(1, "\n", 1);
