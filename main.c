@@ -6,11 +6,11 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 13:17:14 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/11 13:19:41 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/11 13:22:57 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "towerdoku.h"
+#include "tdk.h"
 
 int	main(int argc, char **argv)
 {
