@@ -6,7 +6,7 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 12:26:44 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 09:12:30 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/12 09:35:43 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ typedef struct s_pov
 t_pov;
 
 int	ft_error(void);
-int	ft_parser(char **grid, t_pov *pov);
+int	ft_parser(char *argv, t_pov *pov);
 int	ft_init_grid(char **grid);
 int	ft_solve(char **grid, t_pov *pov);
 int	ft_print_grid(char **grid);

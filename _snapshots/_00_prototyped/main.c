@@ -6,7 +6,7 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 13:17:14 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 09:15:17 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/12 09:33:52 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main(int argc, char **argv)
 
 	if (argc != 2)
 		return (ft_error());
-	if (ft_parser(grid, &pov) != 0)
+	if (ft_parser(argv[1], &pov) != 0)
 		return (ft_error());
 	ft_init_grid(grid);
 	if (ft_solve(grid, &pov) != 0)
