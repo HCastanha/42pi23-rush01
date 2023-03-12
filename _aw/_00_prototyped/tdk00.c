@@ -6,7 +6,7 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 08:36:37 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 09:36:05 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/12 09:46:46 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,17 +23,17 @@ int	ft_parser(char *argv, t_pov *pov)
 	return (0);
 }
 
-int	ft_init_grid(char **grid)
+int	ft_init_grid(char grid[4][4])
 {
 	return (0);
 }
 
-int	ft_solve(char **grid, t_pov *pov)
+int	ft_solve(char grid[4][4], t_pov *pov)
 {
 	return (0);
 }
 
-int	ft_print_grid(char **grid)
+int	ft_print_grid(char grid[4][4])
 {
 	return (0);
 }

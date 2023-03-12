@@ -6,7 +6,7 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 13:17:14 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 09:33:52 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/12 09:48:41 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	main(int argc, char **argv)
 {
 	t_pov		pov;
-	char		**grid;
+	char		grid[4][4];
 
 	if (argc != 2)
 		return (ft_error());
