@@ -1,33 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   tdk.h                                              :+:      :+:    :+:   */
+/*   tdk00.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/11 12:26:44 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 09:12:30 by hecastan         ###   ########.fr       */
+/*   Created: 2023/03/12 08:36:37 by hecastan          #+#    #+#             */
+/*   Updated: 2023/03/12 09:11:13 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TDK_H
-# define TDK_H
+#include "tdk.h"
 
-#include <unistd.h>
-
-typedef struct s_pov
+int	ft_error(void)
 {
-	char	up[4];
-	char	down[4];
-	char	left[4];
-	char	right[4];	
+	write(1, "Error\n", 6);
+	return (0);
 }
-t_pov;
 
-int	ft_error(void);
-int	ft_parser(char **grid, t_pov *pov);
-int	ft_init_grid(char **grid);
-int	ft_solve(char **grid, t_pov *pov);
-int	ft_print_grid(char **grid);
+int	ft_parser(char **grid, t_pov *pov)
+{
+	return (0);
+}
 
-#endif
+int	ft_init_grid(char **grid)
+{
+	return (0);
+}
+
+int	ft_solve(char **grid, t_pov *pov)
+{
+	return (0);
+}
+
+int	ft_print_grid(char **grid)
+{
+	return (0);
+}
