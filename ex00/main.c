@@ -6,13 +6,14 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 13:17:14 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 10:21:04 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/12 12:47:53 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "tdk.h"
 
-int	main(int argc, char **argv)
+int	main
+(int argc, char **argv)
 {
 	t_pov		pov;
 	char		grid[4][4];
