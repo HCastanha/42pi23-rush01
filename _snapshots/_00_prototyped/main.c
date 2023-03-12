@@ -6,12 +6,11 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 13:17:14 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 09:08:18 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/12 09:15:17 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "tdk.h"
-#include <unistd.h>
 
 int	main(int argc, char **argv)
 {
