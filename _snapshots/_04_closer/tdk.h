@@ -6,7 +6,7 @@
 /*   By: hecastan <hecastan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 12:26:44 by hecastan          #+#    #+#             */
-/*   Updated: 2023/03/12 22:25:34 by hecastan         ###   ########.fr       */
+/*   Updated: 2023/03/12 20:17:53 by hecastan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@
 # include <unistd.h>
 # define SUCCESS 0
 # define ERROR 1
-# define FINISHED 0
-# define FOUND 1
 typedef struct s_pov
 {
 	char	up[4];
@@ -35,7 +33,7 @@ int		ft_print_grid(char grid[4][4]);
 void	ft_putstr(char *str);
 int		ft_scan_zero(char grid[4][4], int *x, int *y);
 int		ft_is_n_valid(char grid[4][4], int x, int y, int n);
-int		ft_is_row_valid(char grid[4][4], t_pov *pov, int x, int j);
-int		ft_is_col_valid(char grid[4][4], t_pov *pov, int y, int i);
+int		ft_is_row_valid(char grid[4][4], t_pov *pov, int x);
+int		ft_is_col_valid(char grid[4][4], t_pov *pov, int y);
 
 #endif
